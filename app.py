@@ -5,8 +5,8 @@ Educational demo based on the original MBTI text classification notebook.
 It uses NLTK Naive Bayes classifiers with a simple bag-of-words pipeline.
 
 Expected dataset location:
-- Dataset.zip in the same folder as app.py, OR
-- data/Dataset.zip, OR
+- dataset.zip in the data folder, OR
+- data/dataset.zip, OR
 - a CSV file inside data/ with columns: type, posts
 
 Important:
@@ -77,11 +77,17 @@ def preprocess_text(text: str) -> List[str]:
 
 
 def find_dataset_file() -> Tuple[str, Path | None, str | None]:
-    """Find Dataset.zip or CSV with MBTI dataset."""
+    """Find dataset ZIP or CSV with MBTI dataset.
+
+    Priority path for this project:
+    - data/dataset.zip
+    """
     base_dir = Path(__file__).resolve().parent
     candidates = [
+        base_dir / "data" / "dataset.zip",
         base_dir / "Dataset.zip",
         base_dir / "data" / "Dataset.zip",
+        base_dir / "dataset.zip",
     ]
 
     for zip_path in candidates:
@@ -107,7 +113,7 @@ def load_dataset() -> pd.DataFrame:
 
     if source_type == "missing" or path is None:
         raise FileNotFoundError(
-            "Dataset tidak ditemukan. Letakkan Dataset.zip di root project atau di folder data/."
+            "Dataset tidak ditemukan. Pastikan file tersedia di data/dataset.zip."
         )
 
     if source_type == "zip":
