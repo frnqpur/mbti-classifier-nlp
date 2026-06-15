@@ -18,7 +18,7 @@ https://mbti-classifier-nlp-elkew8jedtccsxd9exyxoh.streamlit.app/
 
 ---
 
-## Demo Preview
+## Preview
 
 ![Streamlit Home](screenshots/01-streamlit-home.png)
 
@@ -222,7 +222,7 @@ cPanel is not recommended for this project because many shared hosting plans do 
 
 ---
 
-## Demo Usage
+## Usage
 
 Enter an anonymous sample text, for example:
 
@@ -285,7 +285,7 @@ Possible improvements include:
 
 ---
 
-## Portfolio Summary
+## Summary
 
 Built an educational NLP text classification demo using Python, text preprocessing, bag-of-words features, and Naive Bayes classifiers to predict MBTI-style traits from user input. The project includes a Streamlit demo and clear limitations to avoid presenting the output as an official psychological result.
 
