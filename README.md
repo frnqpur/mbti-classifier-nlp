@@ -18,6 +18,16 @@ https://mbti-classifier-nlp-elkew8jedtccsxd9exyxoh.streamlit.app/
 
 ---
 
+## Demo Preview
+
+![Streamlit Home](screenshots/01-streamlit-home.png)
+
+![Text Input](screenshots/02-text-input.png)
+
+![Prediction Result](screenshots/03-prediction-result.png)
+
+---
+
 ## Project Goals
 
 The goals of this project are to demonstrate:
