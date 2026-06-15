@@ -80,13 +80,6 @@ mbti-classifier-nlp/
 ├── portfolio-kit/
 │   ├── CASE_STUDY_EN.md
 │   ├── CASE_STUDY_ID.md
-│   ├── CV_BULLETS.md
-│   ├── LOCAL_SETUP.md
-│   ├── PROJECT_BRIEF.md
-│   ├── RECRUITER_VIEW.md
-│   ├── SCREENSHOT_CHECKLIST.md
-│   ├── SECURITY_CLEANUP.md
-│   └── STREAMLIT_DEPLOYMENT.md
 └── screenshots/
 ```
 
