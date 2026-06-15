@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+.ipynb_checkpoints/
+
+.env
+.env.local
+secrets.toml
+credentials.json
+token.json
+
+private/
+raw/
+personal/
+
+Names.txt
+Myquora.txt
+Sanayapoem.txt
+Valentin pyatev.txt
+All text.txt
+Their MBTI type.txt
+
+.DS_Store
+Thumbs.db
