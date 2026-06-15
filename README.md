@@ -79,8 +79,11 @@ mbti-classifier-nlp/
 │   └── dataset.zip
 ├── portfolio-kit/
 │   ├── CASE_STUDY_EN.md
-│   ├── CASE_STUDY_ID.md
+│   └── CASE_STUDY_ID.md
 └── screenshots/
+    ├── 01-streamlit-home.png
+    ├── 02-text-input.png
+    └── 03-prediction-result.png
 ```
 
 ---
