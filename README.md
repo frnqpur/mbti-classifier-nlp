@@ -8,7 +8,7 @@ This project is designed as a machine learning portfolio demo. It should **not**
 
 ---
 
-## Live Demo
+## Live App
 
 Try the Streamlit demo here:
 
