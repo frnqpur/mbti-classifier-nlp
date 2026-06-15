@@ -1,4 +1,4 @@
-# MBTI Classifier — NLP Text Classification Demo
+# MBTI Classifier — NLP Text Classification
 
 ## Overview
 
