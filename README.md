@@ -73,7 +73,6 @@ mbti-classifier-nlp/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── README_DEPLOY.md
 ├── mbti_classifier_notebook.ipynb
 ├── data/
 │   └── dataset.zip
