@@ -76,9 +76,6 @@ mbti-classifier-nlp/
 ├── mbti_classifier_notebook.ipynb
 ├── data/
 │   └── dataset.zip
-├── portfolio-kit/
-│   ├── CASE_STUDY_EN.md
-│   └── CASE_STUDY_ID.md
 └── screenshots/
     ├── 01-streamlit-home.png
     ├── 02-text-input.png
